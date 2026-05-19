@@ -47,14 +47,17 @@ public class EspecialidadeService {
     
     public EspecialidadeResponseDTO criar(EspecialidadeRequestDTO dto) {
 
-		//Converte o DTO para a Entidade real
+	//Converte o DTO para a Entidade real
+    	//Preaparação
     Especialidade especialidade = new Especialidade();
     especialidade.setNome(dto.getNome());
     especialidade.setDescricao(dto.getDescricao());
 
     //Salva no banco
+    //Ação
     especialidade = repository.save(especialidade);
-
+    
+    //Entrega
     EspecialidadeResponseDTO response = new EspecialidadeResponseDTO();
     response.setId(especialidade.getId());
     response.setNome(especialidade.getNome());
