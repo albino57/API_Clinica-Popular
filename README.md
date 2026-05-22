@@ -25,16 +25,16 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/API_Clinica_Popular
 spring.datasource.username=postgres
 spring.datasource.password=SUA_SENHA_AQUI
 
-# O projeto está configurado para rodar na porta 8082 para evitar conflitos
+### O projeto está configurado para rodar na porta 8082 para evitar conflitos
 server.port=8082
 
 Como Rodar a Aplicação
-# Clone este repositório para a sua máquina.
-# Importe o projeto na sua IDE de preferência (Eclipse, IntelliJ, etc.) como um projeto Maven. **(Recomando usar o Eclipse)**
-# Aguarde o download das dependências (ou force um Maven -> Update Project).
-# Execute a classe principal ApiClinicaPopularApplication.java.
+### Clone este repositório para a sua máquina.
+### Importe o projeto na sua IDE de preferência (Eclipse, IntelliJ, etc.) como um projeto Maven. **(Recomando usar o Eclipse)**
+### Aguarde o download das dependências (ou force um Maven -> Update Project).
+### Execute a classe principal ApiClinicaPopularApplication.java.
 
-# **Para usar os Endpoints, é muito recomendado usar o SWAGGER.**
+### **Para usar os Endpoints, é muito recomendado usar o SWAGGER.**
 http://localhost:8082/swagger-ui/index.html
 
 
