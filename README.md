@@ -51,13 +51,13 @@ O projeto foi construído utilizando o seguinte ecossistema tecnológico:
 
 ## 📌 Exemplos de Endpoints
 1. Cadastrar Especialidade
-Método: POST
-URL: http://localhost:8082/especialidades
-Body (JSON):
-{
-    "nome": "",
-    "descricao": ""
-}
+*Método: POST
+*URL: http://localhost:8082/especialidades
+*Body (JSON):
+*{
+*    "nome": "",
+*    "descricao": ""
+*}
 
 2. Cadastrar Médico
 Método: POST
