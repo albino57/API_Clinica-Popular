@@ -18,9 +18,9 @@ O objetivo é simular o sistema de gerenciamento de uma **Clínica Popular**, pe
 * Postman
 
 ### Configuração do Banco de Dados
-No arquivo `src/main/resources/application.properties`, configure as credenciais do seu banco de dados PostgreSQL. Crie um banco vazio chamado `API_Clinica_Popular` e ajuste as propriedades abaixo:
+No arquivo *src/main/resources/application.properties*, configure as credenciais do seu banco de dados PostgreSQL. Crie um banco vazio chamado *API_Clinica_Popular* e ajuste as propriedades abaixo:
 
-`application.properties:`
+**application.properties:**
 spring.datasource.url=jdbc:postgresql://localhost:5432/API_Clinica_Popular
 spring.datasource.username=postgres
 spring.datasource.password=SUA_SENHA_AQUI
@@ -51,13 +51,13 @@ O projeto foi construído utilizando o seguinte ecossistema tecnológico:
 
 ## 📌 Exemplos de Endpoints
 1. Cadastrar Especialidade
-*Método: POST
-*URL: http://localhost:8082/especialidades
-*Body (JSON):
-*{
-*    "nome": "",
-*    "descricao": ""
-*}
+Método: POST
+URL: http://localhost:8082/especialidades
+Body (JSON):
+{
+    "nome": "",
+    "descricao": ""
+}
 
 2. Cadastrar Médico
 Método: POST
