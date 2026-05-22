@@ -28,13 +28,13 @@ spring.datasource.password=SUA_SENHA_AQUI
 ### O projeto está configurado para rodar na porta 8082 para evitar conflitos
 server.port=8082
 
-Como Rodar a Aplicação
-### Clone este repositório para a sua máquina.
-### Importe o projeto na sua IDE de preferência (Eclipse, IntelliJ, etc.) como um projeto Maven. **(Recomando usar o Eclipse)**
-### Aguarde o download das dependências (ou force um Maven -> Update Project).
-### Execute a classe principal ApiClinicaPopularApplication.java.
+##Como Rodar a Aplicação:
+* Clone este repositório para a sua máquina.
+* Importe o projeto na sua IDE de preferência (Eclipse, IntelliJ, etc) como um projeto Maven. *(Recomando usar o Eclipse)*
+* Aguarde o download das dependências (ou force um Maven -> Update Project).
+* Execute a classe principal ApiClinicaPopularApplication.java.
 
-### **Para usar os Endpoints, é muito recomendado usar o SWAGGER.**
+ **Para usar os Endpoints, é muito recomendado usar o SWAGGER.**
 http://localhost:8082/swagger-ui/index.html
 
 
@@ -50,19 +50,21 @@ O projeto foi construído utilizando o seguinte ecossistema tecnológico:
 
 
 ## 📌 Exemplos de Endpoints
-1. Cadastrar Especialidade
-Método: POST
-URL: http://localhost:8082/especialidades
-Body (JSON):
+### 1. Cadastrar Especialidade
+* **Método:** `POST`
+* **URL:** `http://localhost:8082/especialidades`
+* **Body (JSON):**
+```json
 {
     "nome": "",
     "descricao": ""
 }
-
-2. Cadastrar Médico
-Método: POST
-URL: http://localhost:8082/medicos
-Body (JSON):
+```
+### 2. Cadastrar Médico
+* **Método:** `POST`
+* **URL:** `http://localhost:8082/medicos`
+* **Body (JSON):**
+```json
 {
     "nome": "Dr. Carlos Eduardo",
     "cpf": "12345678901",
@@ -71,10 +73,10 @@ Body (JSON):
     "crm": "CRM/RJ 123456",
     "especialidadeId": 1
 }
-
-3. Get do Médico
-Método: GET
-URL: http://localhost:8082/medicos
+```
+### 3. Get do Médico
+* **Método:** `GET`
+* **URL:** `http://localhost:8082/medicos`
 
 
 ## 📚 Documentação (Swagger)
