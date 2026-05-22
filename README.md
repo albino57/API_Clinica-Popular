@@ -28,7 +28,7 @@ spring.datasource.password=SUA_SENHA_AQUI
 ### O projeto está configurado para rodar na porta 8082 para evitar conflitos
 server.port=8082
 
-##Como Rodar a Aplicação:
+## Como Rodar a Aplicação:
 * Clone este repositório para a sua máquina.
 * Importe o projeto na sua IDE de preferência (Eclipse, IntelliJ, etc) como um projeto Maven. *(Recomando usar o Eclipse)*
 * Aguarde o download das dependências (ou force um Maven -> Update Project).
